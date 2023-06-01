@@ -1,0 +1,70 @@
+{
+    "NetworkName": "BetaNet",
+    "TokenID": "0200000000000000",
+    "DefaultCoreAPI": "https://betanet.lisk.com/rpc",
+    "DefaultServiceAPI": "https://betanet-service.lisk.com/",
+    "PublicCoreNode": [
+        {
+            "URL": "https://betanet.lisk.com/rpc",
+            "Provider": "lisk.com",
+            "Name": "betanet.lisk.com",
+            "Country": "Germany"
+        },
+        {
+            "URL": "https://beta4-api.lisknode.io/rpc",
+            "Provider": "gr33ndrag0n",
+            "Name": "beta4-api.lisknode.io",
+            "Country": "Canada"
+        },
+        {
+            "URL": "https://betanet-api.lemii.dev/rpc",
+            "Provider": "lemii",
+            "Name": "betanet-api.lemii.dev",
+            "Country": "Germany"
+        }
+    ],
+    "PublicServiceNode": [
+        {
+            "URL": "https://betanet-service.lisk.com/",
+            "Provider": "lisk.com",
+            "Name": "betanet-service.lisk.com",
+            "Country": "Germany"
+        },
+        {
+            "URL": "https://betanet-service.lemii.dev/",
+            "Provider": "lemii",
+            "Name": "betanet-service.lemii.dev",
+            "Country": "Germany"
+        }
+    ],
+    "Validator": [
+        {
+            "Name": "drag0nv3rt (betanet)",
+            "Address": "lsk3oe7hmf5k5e4f58zhmbouzx3t4v98sgsfuhwnw"
+        },
+        {
+            "Name": "opt1mus (betanet)",
+            "Address": "lskzytpy82c8xtkpopchzee3vydza4cvjvcsa4fv3"
+        }
+    ],
+    "PrivateCoreNode": [
+        {
+            "Name": "PrivateNode1",
+            "URL": "http://xxx.xxx.xxx.xxx:7887/rpc"
+        },
+        {
+            "Name": "PrivateNode2",
+            "URL": "http://xxx.xxx.xxx.xxx:7887/rpc"
+        }
+    ],
+    "Account": [
+        {
+            "Name": "drag0nv3rt (betanet)",
+            "Address": "lsk3oe7hmf5k5e4f58zhmbouzx3t4v98sgsfuhwnw"
+        },
+        {
+            "Name": "opt1mus (betanet)",
+            "Address": "lskzytpy82c8xtkpopchzee3vydza4cvjvcsa4fv3"
+        }
+    ]
+}
