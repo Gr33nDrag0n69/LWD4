@@ -129,7 +129,7 @@ $CustomGeneratorList = @()
 
 ForEach ( $Validator in $Config.Validator ) {
 
-    $HeightList = $GeneratorStatusList | Where-Object { $_.Address -eq $Validator.Address } | Select-Object -Property NodeName, Height, MaxHeightPrevoted, MaxHeightGenerated
+    $HeightList = [System.Array]$( $GeneratorStatusList | Where-Object { $_.Address -eq $Validator.Address } | Select-Object -Property NodeName, Height, MaxHeightPrevoted, MaxHeightGenerated )
 
     #---
 
