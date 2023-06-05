@@ -21,16 +21,17 @@ The code can run anywhere PowerShell 7 can run.
 
 ## Install Code on MGMT Client
 
-You have multiple choices each with advantages/disadvantages :
+You have multiple choices :
 
-* Download GitHub [Archive](https://github.com/Gr33nDrag0n69/LWD4/archive/refs/heads/main.zip)
-* Git Clone LWD4 to MGMT Client.
-* Git Fork LWD4 to YOUR Private GitHub project
-  * Git Clone YOUR Private GitHub project to MGMT Client.
+1. Download GitHub [Archive](https://github.com/Gr33nDrag0n69/LWD4/archive/refs/heads/main.zip)
+2. Git Clone LWD4 to MGMT Client. Example: `git clone https://github.com/Gr33nDrag0n69/LWD4.git`
+3. Git Fork LWD4 & do whatever you want.
 
 ## Edit LWD4 Config
 
-A sample config is provided in the `JSON` directory. See [Edit LWD4 Config](./MD/Edit-LWD4-Config.md) for more infos.
+A sample config is provided in the `JSON` directory.
+
+See [Edit LWD4 Config](./MD/Edit-LWD4-Config.md) for more infos.
 
 ## Run Script(s)
 
