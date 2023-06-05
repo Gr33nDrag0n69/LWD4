@@ -31,7 +31,7 @@ There is 2 ways of using `pwsh` on linux.
 
 2. You can also execute PS7 script directly from bash: `pwsh .\Script.ps1`
 
-Bottom line it's the same output, I would say the choice is only a question of preferences & also if you intend to run a single PS7 command or multiple PS7 commands.
+Bottom line it's the same output, I would say the choice is only a question of preferences & also if you intend to run a single PS7 script or multiple PS7 commands.
 
 Here an example of both:
 ```shell
@@ -39,6 +39,8 @@ Here an example of both:
 username@hostname:~/LWD4$ pwsh
 PowerShell 7.3.4
 PS /home/username/LWD4> ./Show-Dashboard.ps1 -Net Beta
+PS /home/username/LWD4> exit
+username@hostname:~/LWD4$
 
 # As Bash CMD
 username@hostname:~/LWD4$ pwsh ./Show-Dashboard.ps1 -Net Beta
