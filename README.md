@@ -29,9 +29,24 @@ You have multiple choices :
 
 ## Edit LWD4 Config
 
-A sample config is provided in the `JSON` directory.
+I provided a sample config file in the `JSON` directory. BEFORE using the scripts, you must modify it to fit your configuration.
 
-See [Edit LWD4 Config](./MD/Edit-LWD4-Config.md) for more infos.
+For the Betanet environment, please refer to the configuration file titled `lwd4-config.beta.json`.
+
+Upon opening the file, you'll notice that the structure of each section is relatively easy to understand.
+
+You're required to modify the following sections:
+
+* Account
+* Validator
+* PrivateCoreNode
+
+In addition to these, while it's not mandatory, I strongly suggest reviewing and validating the entries of the following sections to ensure optimal operation:
+
+* DefaultCoreAPI
+* DefaultServiceAPI
+* PublicCoreNode
+* PublicServiceNode
 
 ## Run Script(s)
 
