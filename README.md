@@ -31,11 +31,9 @@ You have multiple choices :
 
 I provided a sample config file in the `JSON` directory. BEFORE using the scripts, you must modify it to fit your configuration.
 
-For the Betanet environment, please refer to the configuration file titled `lwd4-config.beta.json`.
+For the Betanet environment, please edit the configuration file titled `lwd4-config.beta.json`. Upon opening the file, you'll notice that the structure of each section is relatively easy to understand.
 
-Upon opening the file, you'll notice that the structure of each section is relatively easy to understand.
-
-You're required to modify the following sections:
+You're **required** to modify the following sections:
 
 * Account
 * Validator
